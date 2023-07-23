@@ -4,10 +4,9 @@ This was a fun little distraction I whipped up based on a video found on Discord
 
 ## Installation:
 
-This script uses the ```python-dotenv``` and ```elevenlabs``` packages from pip.
+This script uses the ```python-dotenv```, ```feedparser```, and ```elevenlabs``` packages from pip.
 
 ```elevenlabs``` requires [FFmpeg](https://www.ffmpeg.org/download.html) to play the audio.
-
 
 ### N.B.
 

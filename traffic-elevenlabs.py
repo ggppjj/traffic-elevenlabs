@@ -3,12 +3,13 @@ from dotenv import dotenv_values, set_key as set_dotenv_key
 #elevenlabs
 #also requires ffmpeg installed
 from elevenlabs import generate as generate_elevenlabs_api_voice, play as play_elevenlabs_api_voice, set_api_key as set_elevenlabs_api_key
+#feedparser
+from feedparser import parse
 
 from os.path import isfile
 from pathlib import Path
 from platform import system
 from subprocess import run
-from feedparser import parse
 
 def touch(path):
     Path(path).touch()
